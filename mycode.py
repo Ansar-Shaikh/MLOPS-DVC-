@@ -8,7 +8,10 @@ data = {
     'City': ['New York', 'Los Angeles', 'Chicago']
 }
 
+new_data={"Name":"Pratu","Age":20,"City":"Aklkuti"}
+
 df = pd.DataFrame(data)
+df[len(df.index)]=new_data
 
 # # Adding new row to df for v2
 # new_row_loc = {'Name': 'v2', 'Age': 20, 'City': 'City1'}
